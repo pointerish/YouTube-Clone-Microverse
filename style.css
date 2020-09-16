@@ -1,9 +1,44 @@
+body {
+    margin: 0 auto;
+    width: 1024px;
+}
+
 main {
     display: flex;
 }
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#search-container {
+    position: relative;
+}
+
+#search-box {
+    width: 553px;
+    height: 27px;
+}
+
+#search-button {
+    position: absolute;
+    width: 66px;
+    height: 33px;
+}
+
+#signin-button {
+    background-color: rgb(22, 122, 198);
+    color: white;
+    padding: 10px 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
 }
 
 #logo {
