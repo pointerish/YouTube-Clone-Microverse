@@ -8,22 +8,24 @@
 </head>
 <body>
     <nav id="navigation-bar">
-        <img id="menu" src="assets/menu-24px.svg" alt="menu"/>
-        <img id="logo" src="assets/ytlogo.png" alt="youtube logo"/>
+        <div>
+            <img id="menu" src="assets/menu-24px.svg" alt="menu"/>
+            <img id="logo" src="assets/ytlogo.png" alt="youtube logo"/>
+        </div>
         <section id="search-container">
-            <form action="">
+            <form action="post">
                 <input placeholder="Search" type="text" name="search" id="search-box"/>
-                <a href="#"  id="search-button">
-                    <img src="assets/search-24px.svg" alt="search icon"/>
-                </a>
+                <button id="search-button"></button>
             </form>
         </section>
-        <img src="assets/cloud_upload-24px.svg" alt="" id="upload-icon"/>
-        <a href="#" id="signin-button">Sign in</a>
+        <div>
+            <img src="assets/cloud_upload-24px.svg" alt="" id="upload-icon"/>
+            <a href="#" id="signin-button">Sign in</a>
+        </div>
     </nav>
     <main>
         <section id="video">
-            <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h1 id="video-title">Contributing to Open Source Part I: The Easy Way</h1>
             <article id="video-info">
                 <img src="assets/channel-icon.png" alt="" id="channel-img">
@@ -119,6 +121,5 @@
            <a href="#">show more</a>
         </section>
     </main>
-    
 </body>
 </html>

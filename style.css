@@ -11,7 +11,18 @@ body {
 }
 #logo {
     width: 100px;
+    margin-left: 10px;
 }
+
+#navigation-bar div {
+    display: flex;
+    align-items: center;
+}
+
+#upload-icon {
+    margin-right: 20px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -28,12 +39,7 @@ nav {
 #search-box {
     width: 553px;
     height: 27px;
-}
-
-#search-button {
-    position: absolute;
-    width: 66px;
-    height: 33px;
+    border: solid rgb(235, 235, 224) 2px;
 }
 
 #signin-button {
@@ -54,7 +60,10 @@ main {
 #video, #recommended, #video-actions, #video-description {
     background-color: white;
     text-decoration: none;
+    margin: 5px;
+    padding: 5px
 }
+
 iframe {
     width: 600px;
     height: 300px;
@@ -133,4 +142,13 @@ iframe {
 
 .recommended-channel, .recommended-views {
     font-size: .7rem;
+}
+
+#search-button {
+    background: url(assets/search-24px.svg) no-repeat;
+    width: 66px;
+    height: 33px;
+    position: absolute;
+    border: solid rgb(235, 235, 224) 2px;
+    background-position: center;
 }
