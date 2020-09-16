@@ -50,3 +50,15 @@ iframe {
     height: 300px;
 }
 
+#video-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+#video-actions a {
+    text-decoration: none;
+}
+
+#like-icon, #dislike-icon {
+    align-self: flex-end;
+}
