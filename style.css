@@ -1,16 +1,24 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0 auto;
     width: 1024px;
+    background-color:rgb(235, 235, 224);
 }
 
 main {
     display: flex;
+    background-color:rgb(235, 235, 224);
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    border-bottom: solid black 2px;
 
 }
 
@@ -21,6 +29,11 @@ nav {
 #search-box {
     width: 553px;
     height: 27px;
+}
+
+#video, #recommended, #video-actions, #video-description {
+    background-color: white;
+    text-decoration: none;
 }
 
 #search-button {
@@ -37,7 +50,6 @@ nav {
     text-decoration: none;
     font-size: 11px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 2px;
 }
 
@@ -55,10 +67,44 @@ iframe {
     justify-content: space-between;
 }
 
-#video-actions a {
-    text-decoration: none;
-}
-
 #like-icon, #dislike-icon {
     align-self: flex-end;
+}
+
+.recommended-videos {
+    display: flex;
+    font-size: 14px;
+    height: 95px;
+    width: 349px;
+    padding: 5px;
+}
+
+.recommended-info p {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.recommended-title {
+    font-weight: bold;
+}
+
+#video-info {
+
+    display: flex;
+    font-size: 14px;
+    height: 95px;
+    width: 349px;
+    padding: 5px;
+
+}
+
+#channel-info {
+
+    display: flex;
+    font-size: 14px;
+    height: 95px;
+    width: 349px;
+    padding: 5px;
+
 }
