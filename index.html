@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav id="navigation-bar">
-        <img src="assets/ytlogo.png" alt="youtube logo"/>
+        <img id="logo" src="assets/ytlogo.png" alt="youtube logo"/>
         <form action="">
             <input type="text" name="search" id="search-box"/>
             <button id="search-button"></button>
@@ -16,78 +16,80 @@
         <img src="" alt="" id="upload-icon"/>
         <img src="" alt="" id="signin-icon"/>
     </nav>
-    <section id="video">
-        <iframe width="1905" height="779" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <article id="video-info">
-            <p id="video-name">Contributing to Open Source Part I: The Easy Way</p>
-            <img src="" alt="" id="channel-img">
-            <p id="channel-name">The Odin Project</p>
-            <a id="subscribe-icon" href="#"></a>
-            <p id="views-count">50,016 views</p>
-        </article>
-        <article id="video-actions">
-            <img src="" alt="" id="add-icon">
-            <img src="" alt="" id="share-icon">
-            <img src="" alt="" id="more-icon">
-            <img src="" alt="" id="likes-icon">
-            <img src="" alt="" id="dislikes-icons">
-        </article>
-        <article id="video-description">
-            <p id="video-date">Published on Feb 27, 2014</p>
-            <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
-            <a href="#">show more</a>
-        </article>
-    </section>
+    <main>
+        <section id="video">
+            <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <article id="video-info">
+                <p id="video-name">Contributing to Open Source Part I: The Easy Way</p>
+                <img src="" alt="" id="channel-img">
+                <p id="channel-name">The Odin Project</p>
+                <a id="subscribe-icon" href="#"></a>
+                <p id="views-count">50,016 views</p>
+            </article>
+            <article id="video-actions">
+                <img src="" alt="" id="add-icon">
+                <img src="" alt="" id="share-icon">
+                <img src="" alt="" id="more-icon">
+                <img src="" alt="" id="likes-icon">
+                <img src="" alt="" id="dislikes-icons">
+            </article>
+            <article id="video-description">
+                <p id="video-date">Published on Feb 27, 2014</p>
+                <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+                <a href="#">show more</a>
+            </article>
+        </section>
+        <section id="recommended">
+            <article>
+                <p>up next</p>
+                <p>autoplay</p>
+                <img id="autoplay-icon" src="#" alt="">
+            </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-1.jpg" alt="">
+               <p class="recommended-title">Contributing to Open Source Part II: The Real Way</p>
+               <p class="recommended-channel">The Odin Project</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-2.jpg" alt="">
+               <p class="recommended-title">'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'</p>
+               <p class="recommended-channel">imtiana</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-3.jpg" alt="">
+               <p class="recommended-title">Programming in Visual Basic .Net How to Connect Access Database to</p>
+               <p class="recommended-channel">iBasskung</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-4.jpg" alt="">
+               <p class="recommended-title">REST API concepts and examples</p>
+               <p class="recommended-channel">WebConcepts</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-5.jpg" alt="">
+               <p class="recommended-title">GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case</p>
+               <p class="recommended-channel">Valuetainment</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-6.jpg" alt="">
+               <p class="recommended-title">How to create a 3D Terrain with Google Maps and height maps in Photoshop</p>
+               <p class="recommended-channel">Orange Box Ceo</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <article class="recommended-videos">
+               <img class="recommended-img" src="assets/thumb-7.jpg" alt="">
+               <p class="recommended-title">Convolutional Neural Networks (CNNs) explained</p>
+               <p class="recommended-channel">deeplizard</p>
+               <p class="recommended-views" >99999 views</p>
+           </article>
+           <a href="#">show more</a>
+        </section>
+    </main>
     
-    <section id="recommended">
-        <article>
-            <p>up next</p>
-            <p>autoplay</p>
-            <img id="autoplay-icon" src="#" alt="">
-        </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-1.jpg" alt="">
-           <p class="recommended-title">Contributing to Open Source Part II: The Real Way</p>
-           <p class="recommended-channel">The Odin Project</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-2.jpg" alt="">
-           <p class="recommended-title">'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'</p>
-           <p class="recommended-channel">imtiana</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-3.jpg" alt="">
-           <p class="recommended-title">Programming in Visual Basic .Net How to Connect Access Database to</p>
-           <p class="recommended-channel">iBasskung</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-4.jpg" alt="">
-           <p class="recommended-title">REST API concepts and examples</p>
-           <p class="recommended-channel">WebConcepts</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-5.jpg" alt="">
-           <p class="recommended-title">GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case</p>
-           <p class="recommended-channel">Valuetainment</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-6.jpg" alt="">
-           <p class="recommended-title">How to create a 3D Terrain with Google Maps and height maps in Photoshop</p>
-           <p class="recommended-channel">Orange Box Ceo</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <article class="recommended-videos">
-           <img class="recommended-img" src="assets/thumb-7.jpg" alt="">
-           <p class="recommended-title">Convolutional Neural Networks (CNNs) explained</p>
-           <p class="recommended-channel">deeplizard</p>
-           <p class="recommended-views" >99999 views</p>
-       </article>
-       <a href="#">show more</a>
-    </section>
 </body>
 </html>

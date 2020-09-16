@@ -1,0 +1,17 @@
+main {
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+#logo {
+    width: 100px;
+}
+
+iframe {
+    width: 600px;
+    height: 300px;
+}
+
