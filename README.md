@@ -38,4 +38,4 @@ Give a ⭐️ if you like this project!
 
 ## License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
