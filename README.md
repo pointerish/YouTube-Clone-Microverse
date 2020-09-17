@@ -1,2 +1,3 @@
-# YouTube-Clone-Microverse
-This repository is my first Microverse project and contains the code for a simple YouTube clone.
+# YouTube Clone Microverse Project
+This YouTube clone is our first Microverse project.
+Made by [@brenoxav](https://github.com/brenoxav) and [@pointerish](https://github.com/pointerish).
