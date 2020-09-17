@@ -8,7 +8,7 @@ body {
     width: 1024px;
     background-color:rgb(235, 235, 224);
 }
-nav, #video, #recommended, #video-actions, #video-description {
+nav, .video, .recommended, .video-actions, .video-description {
     background-color: white;
     text-decoration: none;
     margin: 5px;
@@ -16,15 +16,15 @@ nav, #video, #recommended, #video-actions, #video-description {
 }
 
 /*Navbar*/
-#logo {
+.logo {
     width: 100px;
     margin-left: 10px;
 }
-#navigation-bar div {
+.navigation-bar div {
     display: flex;
     align-items: center;
 }
-#navigation-bar {
+.navigation-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,15 +34,15 @@ nav, #video, #recommended, #video-actions, #video-description {
 .nav-icons {
     padding: 0 5px;
 }
-#search-container {
+.search-container {
     position: relative;
 }
-#search-box {
+.search-box {
     width: 520px;
     height: 27px;
     border: solid rgb(235, 235, 224) 1px;
 }
-#search-button {
+.search-button {
     background: url(assets/search-24px.svg) no-repeat;
     width: 66px;
     height: 31px;
@@ -51,7 +51,7 @@ nav, #video, #recommended, #video-actions, #video-description {
     border-left: none;
     background-position: center;
 }
-#signin-button {
+.signin-button {
     background-color: rgb(22, 122, 198);
     color: white;
     padding: 10px 15px;
@@ -71,69 +71,70 @@ iframe {
     width: 600px;
     height: 300px;
 }
-#video-title {
+.video-title {
     font-weight: normal;
 }
-#video-info {
+.video-info {
     display: flex;
     font-size: 14px;
     padding: 5px;
 }
-#channel-info {
+.channel-info {
     display: flex;
     font-size: 14px;
     height: 95px;
     width: 349px;
     padding: 5px;
 }
-#channel-img {
+.channel-img {
     height: 48px;
     width: 48px;
     margin-right: 5px;
+    display: block;
 }
-#channel-name {
+.channel-name {
     margin: 0;
     margin-bottom: 7px;
 }
-#views-count {
+.views-count {
     margin: 0;
     margin-top: -20px;
     text-align: right;
     font-size: 1.2rem;
 }
-#video-actions * {
+.video-actions * {
     text-decoration: none;
     font-size: .7rem;
     color: rgb(147, 156, 157);
 }
-#video-actions {
+.video-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
 }
-#video-date {
+.video-date {
     font-size: .8rem;
     font-weight: bold;
     margin: 0;
     margin-top: 20px;
 }
-#video-text {
+.video-text {
     font-size: .8rem;
     margin: 0;
 }
 
 /*Recommended Videos Section*/
-#upnext-video {
+.upnext-video {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
-#upnext-video p {
+.upnext-video p {
     margin: 0;
 }
-#upnext-video div {
+.upnext-video div {
     display: flex;
     align-items: center;
 }
