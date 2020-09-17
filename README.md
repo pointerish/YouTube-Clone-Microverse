@@ -4,7 +4,7 @@
 
 A YouTube clone built for our first Microverse Collaborative Project.
 
-![screenshot](./screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 
 ## Built With
