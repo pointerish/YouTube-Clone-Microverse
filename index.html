@@ -13,12 +13,12 @@
             <img id="menu" src="assets/menu-24px.svg" alt="menu"/>
             <img id="logo" src="assets/ytlogo.png" alt="youtube logo"/>
         </div>
-        <section id="search-container">
+        <div id="search-container">
             <form action="post">
                 <input placeholder="Search" type="text" name="search" id="search-box"/>
                 <button id="search-button"></button>
             </form>
-        </section>
+        </div>
         <div>
             <img src="assets/cloud_upload-24px.svg" alt="" id="upload-icon"/>
             <a href="#" id="signin-button">Sign in</a>
@@ -28,15 +28,15 @@
         <section id="video">
             <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h1 id="video-title">Contributing to Open Source Part I: The Easy Way</h1>
-            <article id="video-info">
+            <div id="video-info">
                 <img src="assets/channel-icon.png" alt="" id="channel-img">
                 <div class="channel-info">
                     <p id="channel-name">The Odin Project</p>
                     <a id="subscribe-icon" href="#"><img src="assets/subscribe-icon.png" alt=""></a>
                 </div>
                 <p id="views-count">50,016 views</p>
-            </article>
-            <article id="video-actions">
+            </div>
+            <div id="video-actions">
                 <div id="actions">
                     <a id="add-icon" href="#"><img src="assets/add-icon.png" alt="">Add to</a>
                     <a id="share-icon" href="#"><img src="assets/share-24px.svg" alt="">Share</a>
@@ -46,26 +46,25 @@
                     <a id="like-icon" href="#"><img src="assets/thumb_up_alt-24px.svg" alt="">399</a>
                     <a id="dislike-icon" href="#"><img src="assets/thumb_down_alt-24px.svg" alt="">13</a>
                 </div>
-                
-            </article>
+            </div>
             <article id="video-description">
-                <p id="video-date">Published on Feb 27, 2014</p>
+                <h2 id="video-date">Published on Feb 27, 2014</h2>
                 <p id="video-text">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
-                <a href="#">show more</a>
+                <a class="show-more" href="#">show more</a>
             </article>
         </section>
-        <section id="recommended">
-            <article id="upnext-video">
+        <aside id="recommended">
+            <div id="upnext-video">
                 <p>up next</p>
                 <div>
                     <span>autoplay</span>
                     <img id="autoplay-icon" src="assets/toggle_on-24px.svg" alt="">
                 </div>
-            </article>
+            </div>
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-1.jpg" alt="">
                <div class="recommended-info">
-                    <p class="recommended-title">Contributing to Open Source Part II: The Real Way</p>
+                    <h2 class="recommended-title">Contributing to Open Source Part II: The Real Way</h2>
                     <p class="recommended-channel">The Odin Project</p>
                     <p class="recommended-views" >99999 views</p>
                 </div>
@@ -74,7 +73,7 @@
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-2.jpg" alt="">
                <div class="recommended-info">
-               <p class="recommended-title">'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'</p>
+               <h2 class="recommended-title">'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'</h2>
                <p class="recommended-channel">imtiana</p>
                <p class="recommended-views" >99999 views</p>
             </div>
@@ -82,7 +81,7 @@
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-3.jpg" alt="">
                <div class="recommended-info">
-               <p class="recommended-title">Programming in Visual Basic .Net How to Connect Access Database to</p>
+               <h2 class="recommended-title">Programming in Visual Basic .Net How to Connect Access Database to</h2>
                <p class="recommended-channel">iBasskung</p>
                <p class="recommended-views" >99999 views</p>
             </div>
@@ -90,7 +89,7 @@
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-4.jpg" alt="">
                <div class="recommended-info">
-               <p class="recommended-title">REST API concepts and examples</p>
+               <h2 class="recommended-title">REST API concepts and examples</h2>
                <p class="recommended-channel">WebConcepts</p>
                <p class="recommended-views" >99999 views</p>
                </div>
@@ -98,7 +97,7 @@
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-5.jpg" alt="">
                <div class="recommended-info">
-               <p class="recommended-title">GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case</p>
+               <h2 class="recommended-title">GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case</h2>
                <p class="recommended-channel">Valuetainment</p>
                <p class="recommended-views" >99999 views</p>
             </div>
@@ -106,7 +105,7 @@
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-6.jpg" alt="">
                <div class="recommended-info">
-               <p class="recommended-title">How to create a 3D Terrain with Google Maps and height maps in Photoshop</p>
+               <h2 class="recommended-title">How to create a 3D Terrain with Google Maps and height maps in Photoshop</h2>
                <p class="recommended-channel">Orange Box Ceo</p>
                <p class="recommended-views" >99999 views</p>
             </div>
@@ -114,13 +113,13 @@
            <article class="recommended-videos">
                <img class="recommended-img" src="assets/thumb-7.jpg" alt="">
                <div class="recommended-info">
-               <p class="recommended-title">Convolutional Neural Networks (CNNs) explained</p>
+               <h2 class="recommended-title">Convolutional Neural Networks (CNNs) explained</h2>
                <p class="recommended-channel">deeplizard</p>
                <p class="recommended-views" >99999 views</p>
             </div>
            </article>
-           <a href="#">show more</a>
-        </section>
+           <a class="show-more" href="#">show more</a>
+        </aside>
     </main>
 </body>
 </html>

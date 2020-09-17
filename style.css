@@ -87,6 +87,13 @@ iframe {
     width: 349px;
     padding: 5px;
 }
+
+#video-actions * {
+    text-decoration: none;
+    font-size: .7rem;
+    color: rgb(147, 156, 157);
+}
+
 #video-actions {
     display: flex;
     justify-content: space-between;
@@ -101,6 +108,7 @@ iframe {
 #views-count {
 }
 #video-date {
+    font-size: .8rem;
     font-weight: bold;
     margin: 0;
     margin-top: 20px;
@@ -130,18 +138,20 @@ iframe {
     padding: 5px;
 }
 
-.recommended-info p {
-    margin: 0;
-    padding: 0;
-    margin-left: 5px;
-}
-
 .recommended-title {
+    display: inline;
     font-weight: bold;
+    font-size: .8rem;
 }
 
 .recommended-channel, .recommended-views {
     font-size: .7rem;
+    margin: 0;
+    padding: 0;
+}
+
+.recommended-info {
+    margin: 0 5px;
 }
 
 #search-button {
@@ -151,4 +161,14 @@ iframe {
     position: absolute;
     border: solid rgb(235, 235, 224) 2px;
     background-position: center;
+}
+
+.show-more {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: rgb(147, 156, 157);
 }
